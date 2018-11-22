@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: ; */
 }
 
 .App-logo {
@@ -29,4 +30,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+li {
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  width: 50%;
+  border-spacing: horizontal vertical;
+  display: inline-block;
+  align-items: center;
+  padding-left: 50px;
+  list-style-type: none;
+}
+
+input {
+  border: 2px solid black;
+  width: 30%;
+  height: 30px;
+  border-spacing: vertical;
 }
